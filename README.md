@@ -18,8 +18,6 @@ NSString+Utils
 
 NSUserDefaults+MPSecureUserDefaults
 
-READMEd
-
 SCZDeviceModel
 
 UIApplication+Info
