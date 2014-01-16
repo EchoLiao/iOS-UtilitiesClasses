@@ -15,4 +15,10 @@
     return ([theObject isEqual:[NSNull null]]) ? nil : theObject;
 }
 
+- (id)notNilStringForKey:(id)theKey {
+    id theObject = [self objectForKey:theKey];
+    if (theObject == nil || [theObject isEqual:[NSNull null]]) return @"";
+    return theObject;
+}
+
 @end

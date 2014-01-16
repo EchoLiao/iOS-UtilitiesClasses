@@ -11,5 +11,6 @@
 @interface NSDictionary (Additions)
 
 - (id)safeObjectForKey:(id)theKey;
+- (id)notNilStringForKey:(id)theKey;
 
 @end
